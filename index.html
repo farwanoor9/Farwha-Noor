@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PAF-IAST — Institute of Applied Sciences & Technology</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="PAF-IAST — International quality applied-science education, research and innovation.">
+  <link rel="icon" href="images/Logo.png">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="main-header">
+  <div class="page-wrap">
+    <div class="logo">
+      <img src="images/Logo.png" alt="PAF-IAST Logo" class="logo-img">
+    </div>
+    <nav class="menu" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#campus">Campus</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#quote">Quote</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO - FULL SCREEN BACKGROUND -->
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+  <div class="hero-grid page-wrap">
+    <div class="hero-left reveal">
+      <h1>PAF-IAST — Shaping Applied Science Leaders for Tomorrow</h1>
+      <p class="muted">International curriculum • Industry-driven research • Entrepreneurial mindset</p>
+      <div class="hero-ctas">
+        <a href="#programs" class="btn primary">Explore Programs</a>
+        <a href="#contact" class="btn ghost">Visit &amp; Apply</a>
+      </div>
+      <ul class="hero-features">
+        <li>Collaborative labs & research parks</li>
+        <li>Dual vocational & academic pathways</li>
+        <li>Global internships & partnerships</li>
+      </ul>
+    </div>
+    <div class="hero-right reveal">
+      <div class="hero-card">
+        <div class="card-body">
+          <h4>Modern Campus</h4>
+          <p class="muted">State‑of‑the‑art facilities, labs and student hubs built for innovation.</p>
+        </div>
+      </div>
+      <div class="floating-cards">
+        <div class="mini-card">
+          <strong>AI & Robotics</strong>
+          <span class="muted">Research cluster & labs</span>
+        </div>
+        <div class="mini-card">
+          <strong>Entrepreneurship</strong>
+          <span class="muted">Start‑up incubator</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="page-wrap">
+    <h2>About PAF-IAST</h2>
+    <p>
+      Pak‑Austria Fachhochschule: Institute of Applied Sciences and Technology is an international standard applied sciences
+      university established in partnership with international institutions. We deliver practice‑oriented engineering and
+      technology education aligned with industry and research needs.
+    </p>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="programs page-wrap" id="programs">
+  <h2>Academic Programs</h2>
+  <div class="program-container">
+    <article class="program-card reveal">
+      <img src="images/se.jpeg" alt="Software Engineering" class="card-media">
+      <div class="card-body">
+        <h3>Software Engineering</h3>
+        <p class="muted">Cutting‑edge software, AI and systems engineering taught with practical labs.</p>
+      </div>
+    </article>
+    <article class="program-card reveal">
+      <img src="images/ee.jpeg" alt="Electrical Engineering" class="card-media">
+      <div class="card-body">
+        <h3>Electrical Engineering</h3>
+        <p class="muted">Focus on power systems, embedded design and renewable technologies.</p>
+      </div>
+    </article>
+    <article class="program-card reveal">
+      <img src="images/biotech.jpeg" alt="Biotechnology" class="card-media">
+      <div class="card-body">
+        <h3>Biotechnology</h3>
+        <p class="muted">Research driven programs bridging life sciences and applied engineering.</p>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+<!-- CAMPUS -->
+<section class="campus page-wrap" id="campus">
+  <h2>Campus Life & Facilities</h2>
+  <div class="info-cards">
+    <div class="info-card reveal">
+      <h3>Smart Classrooms</h3>
+      <p class="muted">Interactive learning spaces and collaborative studio labs.</p>
+    </div>
+    <div class="info-card reveal">
+      <h3>Hostels & Sports</h3>
+      <p class="muted">Safe, comfortable housing and modern sports facilities to support wellness.</p>
+    </div>
+    <div class="info-card reveal">
+      <h3>Library & Digital Resources</h3>
+      <p class="muted">Extensive digital archives and practical research support services.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="news-events page-wrap" id="news">
+  <h2>News & Events</h2>
+  <div class="news-container">
+    <article class="news-card reveal">
+      <img src="images/laptop.png" alt="Laptop Scheme" class="card-media">
+      <div class="card-body"><h3>PM Laptop Scheme Distribution</h3></div>
+    </article>
+    <article class="news-card reveal">
+      <img src="images/robotics.jpeg" alt="Robotics Winner" class="card-media">
+      <div class="card-body"><h3>Robotics Competition Winner</h3></div>
+    </article>
+    <article class="news-card reveal">
+      <img src="images/h.png" alt="Admissions" class="card-media">
+      <div class="card-body"><h3>Admissions Open</h3></div>
+    </article>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="quote-section" id="quote">
+  <div class="page-wrap">
+    <div class="quote-content reveal">
+      <img src="images/quote.jpeg" alt="Inspirational" class="quote-img">
+      <p class="quote-text">Education is the most <span>powerful weapon</span> to change the world.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact page-wrap" id="contact">
+  <h2>Contact & Visit</h2>
+  <form id="contactForm" onsubmit="submitForm(event)">
+    <div class="name-fields">
+      <input type="text" id="firstName" placeholder="First Name" required>
+      <input type="text" id="lastName" placeholder="Last Name" required>
+    </div>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <select id="subject" required>
+      <option value="" disabled selected>Select Subject</option>
+      <option value="Admissions">Admissions</option>
+      <option value="Programs">Programs</option>
+      <option value="Campus Life">Campus Life</option>
+      <option value="Others">Others</option>
+    </select>
+    <textarea id="message" placeholder="Message" required></textarea>
+    <div class="form-actions">
+      <button type="submit" class="btn primary">Send Message</button>
+      <button type="button" class="btn ghost" onclick="document.getElementById('contactForm').reset()">Reset</button>
+    </div>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="page-wrap">
+    <div>
+      <h3>PAF-IAST</h3>
+      <small>Shaping Tomorrow's Innovators</small>
+    </div>
+    <div>
+      <small>Developed by Farwa Noor</small>
+      <br>
+      <small id="year"></small>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
